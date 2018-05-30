@@ -4,7 +4,27 @@
 		<meta charset="UTF-8">
 		<title>图片懒加载</title>
 		<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-		<link rel="stylesheet" href="style.css">
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			li {
+				list-style: none;
+			}
+
+			.container {
+				width: 600px;
+				margin: 0 auto;
+			}
+			.container li {
+				float: left;
+				margin: 10px;
+			}
+			.container li img {
+				width: 240px;
+			}
+		</style>
 	</head>
 	<body>
 		<ul class="container">
